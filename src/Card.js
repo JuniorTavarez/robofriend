@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Card = ({ name, email, id }) => {
   return (
@@ -6,11 +6,11 @@ const Card = ({ name, email, id }) => {
       <img src={`https://robohash.org/${id}?size=200x200`} alt="robots" />
 
       <div>
-        <h2>{name}</h2>
-        <p>{email}</p>
+        <h2 className="f5">{name}</h2>
+        <p className="f6">{email}</p>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Card;
+export default Card
